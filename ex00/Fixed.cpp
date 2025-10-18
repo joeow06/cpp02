@@ -6,7 +6,7 @@
 /*   By: jow <jow@student.42kl.edu.my>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/17 22:26:16 by jow               #+#    #+#             */
-/*   Updated: 2025/10/17 23:44:34 by jow              ###   ########.fr       */
+/*   Updated: 2025/10/18 12:09:01 by jow              ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,3 +47,13 @@ void Fixed::setRawBits(int const raw)
 {
 	fpNum = raw;
 }
+
+/*
+* Copy Constructor:
+* - Allows deep copy instead of shallow copy 
+* Copy assignment operator
+* - does the same thing
+* Difference:
+* - C.C creates and init a new object
+* - C.A.O assigns to an already-init object
+*/
