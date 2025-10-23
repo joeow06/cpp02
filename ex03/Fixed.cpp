@@ -30,7 +30,7 @@ Fixed::Fixed(int const value) {fpNum = value << bits;}
 
 Fixed::Fixed(float const value)
 {
-	fpNum = static_cast<int>(std::roundf(value * float(1 << bits)));
+	fpNum = static_cast<int>(roundf(value * float(1 << bits)));
 }
 
 Fixed::~Fixed() {}
