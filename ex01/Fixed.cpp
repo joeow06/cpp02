@@ -43,7 +43,7 @@ Fixed::Fixed(int const value)
 Fixed::Fixed(float const value)
 {
 	std::cout << "Float constructor called" << std::endl;
-	fpNum = static_cast<int>(std::roundf(value * float(1 << bits)));
+	fpNum = static_cast<int>(roundf(value * float(1 << bits)));
 }
 
 Fixed::~Fixed()
