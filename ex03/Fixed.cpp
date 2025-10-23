@@ -12,8 +12,6 @@
 
 #include "Fixed.hpp"
 
-const int Fixed::bits = 8;
-
 Fixed::Fixed(): fpNum(0) {}
 
 Fixed::Fixed(const Fixed &other) {*this = other;}
